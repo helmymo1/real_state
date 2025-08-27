@@ -1,29 +1,28 @@
-import { BrowserRouter } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/navbar/Navbar";
-import Developers from "./pages/Developers";
 import Footer from "./pages/Footer";
-import Join from "./pages/Join";
-import Loading from "./pages/Header";
-import Partners from "./pages/Partners";
-import Properties from "./pages/Properties";
-import Subscribe from "./pages/Subscribe";
+import HomePage from "./pages/HomePage";
+import PropertiesPage from "./pages/PropertiesPage";
+import PropertyDetailsPage from "./pages/PropertyDetailsPage";
+import ContactPage from "./pages/ContactPage";
+
+
+import { PropertyProvider } from "./context/PropertyContext";
 
 function App() {
   return (
-    <>
+    <PropertyProvider>
       <BrowserRouter>
         <NavBar />
-        <Loading />
-        <Partners />
-        <Properties />
-        <AboutUs />
-        <Developers />
-        <Join />
-        <Subscribe />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/properties" element={<PropertiesPage />} />
+          <Route path="/properties/:id" element={<PropertyDetailsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
         <Footer />
       </BrowserRouter>
-    </>
+    </PropertyProvider>
   );
 }
 
