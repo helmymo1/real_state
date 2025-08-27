@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121420;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary-color: #356df6;
+  --background-dark: #121420;
+  --background-light: #1b1f33;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c5ce;
+  --text-muted: #5e6379;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.bg-black-100 {
+  background-color: var(--background-light);
+}
+
+.gray-90 {
+  color: var(--text-muted);
+}
+
+.text-white {
+  color: var(--text-primary) !important;
+}
+
+.form-control, .form-select {
+  background-color: var(--background-light) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--text-muted) !important;
+}
+
+.form-control:focus, .form-select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(53, 109, 246, 0.25);
+}
+
+.card {
+  border: none;
+}
+
+.properties-page, .property-details-page, .contact-page {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
