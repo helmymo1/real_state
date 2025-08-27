@@ -36,3 +36,19 @@ Follow these steps to set up the project:
    ```
 
    The application will now be running on `http://localhost:3000`.
+
+# Required Versions
+
+This document specifies the required versions of Node.js and npm to run this project.
+
+## Node.js
+
+The project requires **Node.js version 18.0.0 or higher**.
+
+This is based on the version of Mongoose used in the project (`^8.17.1`), which requires Node.js 18.0.0 or later.
+
+## npm
+
+The project requires **npm version 8.0.0 or higher**.
+
+This is the version of npm that is typically bundled with Node.js 18.
