@@ -57,7 +57,7 @@ function Loading() {
                   <Card.Img
                     variant="top"
                     alt="img"
-                    src={require("../images-compressed/properties/house_big-1.webp")}
+                    src={require("../images-compressed/house_big-1.webp")}
                   />
                   <i className="fa-regular fa-heart like" onClick={like}></i>
                 </div>
@@ -81,7 +81,7 @@ function Loading() {
                   <Card.Img
                     variant="top"
                     alt="img"
-                    src={require("../images-compressed/properties/house_big.webp")}
+                    src={require("../images-compressed/house_big.webp")}
                   />
                   <i className="fa-regular fa-heart like" onClick={like}></i>
                 </div>
