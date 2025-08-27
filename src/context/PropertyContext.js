@@ -7,7 +7,7 @@ export const useProperties = () => {
   return useContext(PropertyContext);
 };
 
-export const PropertyProvider = ({ children }) => {
+export const PropertyProvider = ({ children, value }) => {
   const [properties] = useState(propertiesData);
   const [filteredProperties, setFilteredProperties] = useState(properties);
   const [searchTerm, setSearchTerm] = useState("");
@@ -45,16 +45,16 @@ export const PropertyProvider = ({ children }) => {
     ...new Set(properties.map((p) => p.type)),
   ];
 
+  const contextValue = {
+    properties: filteredProperties,
+    setSearchTerm,
+    setPropertyType,
+    propertyTypes,
+    propertyType,
+  };
+
   return (
-    <PropertyContext.Provider
-      value={{
-        properties: filteredProperties,
-        setSearchTerm,
-        setPropertyType,
-        propertyTypes,
-        propertyType,
-      }}
-    >
+    <PropertyContext.Provider value={value || contextValue}>
       {children}
     </PropertyContext.Provider>
   );

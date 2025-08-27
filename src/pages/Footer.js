@@ -12,7 +12,7 @@ function Footer() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src={require("../images/logo/logo.png")}
+              src={require("../images-compressed/logo/logo.png")}
               alt="logo"
               className="mb-3"
             />

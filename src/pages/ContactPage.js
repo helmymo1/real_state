@@ -28,7 +28,7 @@ function ContactPage() {
         <Row className="justify-content-center mt-4">
           <Col md={8}>
             <Form onSubmit={handleSubmit}>
-              <Form.Group className="mb-3">
+              <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label className="text-white">Name</Form.Label>
                 <Form.Control
                   type="text"
@@ -39,7 +39,7 @@ function ContactPage() {
                   className="bg-black-100 text-white border-secondary"
                 />
               </Form.Group>
-              <Form.Group className="mb-3">
+              <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label className="text-white">Email</Form.Label>
                 <Form.Control
                   type="email"
@@ -50,7 +50,7 @@ function ContactPage() {
                   className="bg-black-100 text-white border-secondary"
                 />
               </Form.Group>
-              <Form.Group className="mb-3">
+              <Form.Group className="mb-3" controlId="formBasicMessage">
                 <Form.Label className="text-white">Message</Form.Label>
                 <Form.Control
                   as="textarea"
