@@ -39,22 +39,22 @@ function Partners() {
           }}
         >
           <SwiperSlide>
-            <img src={require("../images-compressed/partners/stellar.png")} alt="img" />
+            <img src={require("../images-compressed/stellar.png")} alt="img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={require("../images-compressed/partners/blockport.png")} alt="img" />
+            <img src={require("../images-compressed/blockport.png")} alt="img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={require("../images-compressed/partners/fantom.png")} alt="img" />
+            <img src={require("../images-compressed/fantom.png")} alt="img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={require("../images-compressed/partners/onfido.png")} alt="img" />
+            <img src={require("../images-compressed/onfido.png")} alt="img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={require("../images-compressed/partners/tr.png")} alt="img" />
+            <img src={require("../images-compressed/tr.png")} alt="img" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={require("../images-compressed/partners/qa.png")} alt="img" />
+            <img src={require("../images-compressed/qa.png")} alt="img" />
           </SwiperSlide>
         </Swiper>
       </Container>

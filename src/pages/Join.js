@@ -30,7 +30,7 @@ function Join() {
         >
           <SwiperSlide className="py-4 px-3 align-items-start flex-column">
             <h4 className="gray-100 mb-5">1</h4>
-            <img src={require("../images-compressed/illustration/01.webp")} alt="img" />
+            <img src={require("../images-compressed/01.webp")} alt="img" />
             <AnimationTitles
               title="Crypto Community"
               className="text-white mb-4 mt-5 h4"
@@ -42,7 +42,7 @@ function Join() {
           </SwiperSlide>
           <SwiperSlide className="py-4 px-3 align-items-start flex-column">
             <h4 className="gray-100 mb-5">2</h4>
-            <img src={require("../images-compressed/illustration/02.webp")} alt="img" />
+            <img src={require("../images-compressed/02.webp")} alt="img" />
             <AnimationTitles
               title="Asset Owners"
               className="text-white mb-4 mt-5 h4"
@@ -53,7 +53,7 @@ function Join() {
           </SwiperSlide>
           <SwiperSlide className="py-4 px-3 align-items-start flex-column">
             <h4 className="gray-100 mb-5">3</h4>
-            <img src={require("../images-compressed/illustration/03.webp")} alt="img" />
+            <img src={require("../images-compressed/03.webp")} alt="img" />
             <AnimationTitles
               title="Registration"
               className="text-white mb-4 mt-5 h4"
@@ -65,7 +65,7 @@ function Join() {
           </SwiperSlide>
           <SwiperSlide className="py-4 px-3 align-items-start flex-column">
             <h4 className="gray-100 mb-5">4</h4>
-            <img src={require("../images-compressed/illustration/04.webp")} alt="img" />
+            <img src={require("../images-compressed/04.webp")} alt="img" />
             <AnimationTitles
               title="Create Solutions"
               className="text-white mb-4 mt-5 h4"
