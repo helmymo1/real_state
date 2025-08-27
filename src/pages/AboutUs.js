@@ -31,14 +31,14 @@ function AboutUs() {
           <div className="d-flex">
             <div>
               <img
-                src={require("..//images/bohdan-d-fh6o-XkVQG8-unsplash.webp")}
+                src={require("..//images-compressed/bohdan-d-fh6o-XkVQG8-unsplash.webp")}
                 className="p-0 me-2 img"
                 alt="img"
               />
             </div>
             <div>
               <img
-                src={require("..//images/john-o-nolan-6f_ANCcbj3o-unsplash.webp")}
+                src={require("..//images-compressed/john-o-nolan-6f_ANCcbj3o-unsplash.webp")}
                 className="p-0 img"
                 alt="img"
               />
@@ -47,14 +47,14 @@ function AboutUs() {
           <div className="d-flex">
             <div>
               <img
-                src={require("..//images/julia-solonina-ci19YINguoc-unsplash.webp")}
+                src={require("..//images-compressed/julia-solonina-ci19YINguoc-unsplash.webp")}
                 className="p-0 me-2 img"
                 alt="img"
               />
             </div>
             <div>
               <img
-                src={require("..//images/theater-amazonas-manaus.webp")}
+                src={require("..//images-compressed/theater-amazonas-manaus.webp")}
                 className="p-0 img"
                 alt="img"
               />
