@@ -8,7 +8,11 @@ process.on('uncaughtException', (err) => {
     process.exit(1);
 });
 
+const connectDatabase = require('./config/database');
+
 // connectDatabase();
+
+connectDatabase();
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_NAME,
